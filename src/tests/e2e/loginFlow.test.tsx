@@ -1,6 +1,5 @@
-/**
- * @jest-environment puppeteer
- */
+// @jest-environment puppeteer;
+
 import 'expect-puppeteer';
 
 const baseUrl = 'http://localhost:3000/';
