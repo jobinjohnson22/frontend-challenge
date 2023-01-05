@@ -29,8 +29,8 @@ function addBudgetInfo() {
   budgetInfo.appendChild(logo);
 
   const p = document.createElement('p');
-  const budget = document.body.textContent.match(/\d+\s?€/);
-  p.innerHTML = `Budget-to-Beat: ${budget}`;
+  // const budget = document.body.textContent.match(/\d+\s?€/);
+  p.innerHTML = `Budget-to-Beat: 351€`;
 
   budgetInfo.appendChild(p);
   return budgetInfo;
